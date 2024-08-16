@@ -8,7 +8,7 @@ const userRouter = require("./Routes/users")
 const app = express()
 const PORT = 8080
 
-connectDB("mongodb+srv://sameeryadav:sameer%4012345@cluster0.xnbv8po.mongodb.net/Blogging_App")
+connectDB(/*YOUR MONGODB STRING*/)
 
 app.use(cors())
 app.use(express.json())
